@@ -1,121 +1,865 @@
-FORGE AMERICA NOW
-	•	MISSION
-	•	THE ISSUES
-	•	AMENDMENT
-	•	TAKE ACTION
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FORGE America Now — Fighting for Our Rights & Grid Equity</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-A NONPROFIT FOUNDATION
+  :root {
+    --iron:   #0F0F1E;
+    --deep:   #1A1A2E;
+    --navy:   #0D1B3E;
+    --gold:   #C8962C;
+    --gold-lt:#E5B84A;
+    --ember:  #8B1A1A;
+    --crimson:#A02020;
+    --white:  #F4F6FA;
+    --slate:  #B8C0D4;
+    --mid:    #6B7A99;
+  }
 
-FORGE
-America Now
-FIGHTING FOR OUR RIGHTS, GENERATIONS AND ENVIRONMENT
-Ohio's communities are facing an unprecedented corporate land grab — unlimited data centers, unchecked tax abatements, and a power grid being broken by companies that pay virtually nothing extra while families pay for everything.
-★  DONATE NOW SIGN THE NEWSLETTER
+  html { scroll-behavior: smooth; }
 
-OUR MISSION
-Uniting All Ohioans Around a Shared Fight
-FORGE America Now is a nonpartisan, nonprofit dedicated to exposing data center abuse — holding corporations and government officials accountable and bringing communities together across political lines. We do not endorse candidates. We champion citizens.
-⚡
-ELECTRIC GRID CRISIS
-Multiple data center companies are demanding 800 MW of power — equal to the entire cities of Cleveland or Cincinnati — straining a grid built for families, not hyperscale corporations.
-$
-$2.5 BILLION IN TAX BREAKS
-Since 2017, the data center industry has avoided $2.5 billion in Ohio sales taxes. School districts are projected to miss out on millions in state funding as a direct result.
-🛡
-YOUR DATA, YOUR RIGHTS
-These facilities hold your health records, banking data, social media activity, emails and more. They are building comprehensive profiles on every American — and the build-out is accelerating.
-📊
-71% OF AMERICANS AGREE
-A May 2026 Gallup poll found 71% of Americans oppose data centers near their communities. This is not foreign propaganda — it is citizens with legitimate, documented grievances.
-FOUR PILLARS OF ACTION
-01
-Education
-Informing citizens about data center deals, tax breaks, and grid impacts before communities lose their chance to act.
-02
-Advocacy
-Testifying before committees, challenging hidden NDAs, and demanding full transparency in all public records.
-03
-Unity
-Connecting Northeast to Northwest Ohio, Central Ohio, and Soutwest to Southeast rural communities — this issue unites Ohioans regardless of political affiliation.
-04
-Accountability
-Holding corporations and officials accountable when communities are left paying the bills that corporations avoided.
+  body {
+    background: var(--iron);
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
 
-THE ISSUES
-What's Really at Stake for Ohio
-⚡
-Electric Grid Overload
-AEP Ohio warns the grid was never designed for this surge. Data centers consume city-scale electricity and the rate increases are being passed to Ohio families and businesses — not the corporations causing the strain.
-💰
-Tax Abatement Abuse
-Scioto County: 15-year, 75% tax abatement. New Albany: 15-year, 100% abatement for Microsoft in exchange for less than 50 jobs. Schools lose millions while corporations pocket billions in subsidies.
-💧
-Water Consumption
-Mega data centers consume millions of gallons of water daily for cooling. Ohio's EPA is only now being asked to require basic tracking. Our water resources are being privatized without public consent.
-🏠
-False Jobs Promise
-A $420M, 200-acre facility may employ just 100 people. FORGE America Now's assessment: data centers are a net zero for real Ohio economic development. The jobs promise is the industry's biggest lie.
-🔒
-4th Amendment & Privacy
-Your health records, banking data, shopping history and social media flow through these facilities. These centers enable comprehensive surveillance profiles on every American — with no meaningful oversight.
-🚒
-Infrastructure Burden
-In some townships, data centers require so many fire department inspections that residents are facing new service surcharges. Local governments absorb hidden costs; corporations pay nothing extra.
-200+
-DATA CENTERS IN OHIO
-$2.5B
-TAX BREAKS 2017–2024
-800 MW
-ONE COMPANY'S POWER DEMAND
-71%
-AMERICANS OPPOSE NEARBY DATA CENTERS
-THE MOST POWERFUL THING YOU CAN DO
-Sign the Ohio Constitutional Amendment
-417,000+
-VALID SIGNATURES NEEDED
-Conserve Ohio is leading a citizen initiative to amend the Ohio Constitution — capping individual data centers at 25 megawatts. It bypasses the legislature entirely. The effort is making real progress, but urgently needs more volunteer signature gatherers.
-GET PETITION FORMS → STAY INFORMED
-"Pay attention to this because this is an example of how your data gets used in the data centers — and then imagine applying this to every piece of data connecting your health, banking, shopping, dining, entertainment, social media, texts, and emails. They're building a profile on every American. And it's all coming."
-— Kim Georgeton, Founder · FORGE America Now · Ohio House Energy Committee, 2026
-TAKE ACTION
-Stand With FORGE America Now
-Your support keeps FORGE America Now fighting — in the legislature, in the community, and in the streets. Every dollar and every signature matters.
-Support Our Work
-FORGE America Now is funded entirely by citizens like you. Your donation fuels our testimony before committees, community outreach, and the fight to hold corporations accountable.
-$25
-$50
-$100
-$250
-Other
-FIRST NAME
-LAST NAME
-EMAIL ADDRESS
-★  DONATE NOW
-FORGE America Now is a nonprofit organization. Donations may be tax-deductible to the extent permitted by law. We never sell or share your information.
-Stay in the Fight
-Sign up for the FORGE America Now newsletter — action alerts, legislative updates, local events, and the facts you need to protect your community. We send only what matters.
-📋
-Legislative alerts when Ohio bills move
-📍
-Local events in your county
-✍
-Constitutional amendment signature drive updates
-🛡
-The facts on data center deals near you
-FIRST NAME
-LAST NAME
-EMAIL ADDRESS
-OHIO ZIP CODE
-JOIN THE FIGHT →
-We respect your privacy. You can unsubscribe at any time. We never sell or share your information.  Contact: info@forgeamericanow.org
-FORGE AMERICA NOW
-Fighting for Our Rights & Grid Equity
-★ ★ ★
-Mission
-Issues
-Amendment
-Donate
-Conserve Ohio
-Contact
-FORGE America Now is a nonprofit organization. FORGE America Now does not endorse political candidates. Our mission is to educate, advocate, and unite Ohio citizens around data center accountability.
-© 2026 FORGE America Now. All rights reserved.
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.9rem 2.5rem;
+    background: rgba(10, 10, 20, 0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(200,150,44,0.25);
+  }
+  .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900; font-size: 1.15rem; letter-spacing: 0.08em;
+    color: var(--gold);
+    text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    color: var(--slate); font-size: 0.85rem; font-weight: 500;
+    text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--gold); }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center;
+    padding: 7rem 2rem 5rem;
+    position: relative;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 80%, rgba(139,26,26,0.28) 0%, transparent 70%),
+      radial-gradient(ellipse 60% 40% at 20% 20%, rgba(200,150,44,0.08) 0%, transparent 60%),
+      var(--iron);
+  }
+
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 0.6rem;
+    font-size: 0.78rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid rgba(200,150,44,0.4);
+    border-radius: 2px;
+    padding: 0.35rem 1rem;
+    margin-bottom: 2rem;
+  }
+  .hero-eyebrow span { display: inline-block; width: 16px; height: 1px; background: var(--gold); }
+
+  h1.forge-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: clamp(3.5rem, 10vw, 8rem);
+    line-height: 0.92;
+    letter-spacing: -0.01em;
+    color: var(--white);
+    margin-bottom: 0.15em;
+  }
+  h1.forge-title em {
+    font-style: normal;
+    color: var(--gold);
+    display: block;
+  }
+
+  .hero-sub {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--slate);
+    margin: 1.2rem 0 2.4rem;
+  }
+
+  .hero-tagline {
+    max-width: 640px;
+    font-size: 1.1rem;
+    color: var(--slate);
+    line-height: 1.75;
+    margin: 0 auto 3rem;
+  }
+
+  .hero-ctas {
+    display: flex; gap: 1.2rem; flex-wrap: wrap; justify-content: center;
+  }
+
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    background: var(--gold);
+    color: var(--iron);
+    font-weight: 700; font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 0.9rem 2rem;
+    border: none; border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+  }
+  .btn-primary:hover { background: var(--gold-lt); transform: translateY(-1px); }
+
+  .btn-outline {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    background: transparent;
+    color: var(--white);
+    font-weight: 600; font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 0.9rem 2rem;
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+
+  /* ── SPARK DIVIDER (signature element) ── */
+  .spark-divider {
+    width: 100%; overflow: hidden; line-height: 0;
+    margin: 0;
+  }
+  .spark-divider svg { display: block; width: 100%; }
+
+  /* ── SECTIONS ── */
+  section { padding: 6rem 2rem; }
+
+  .container { max-width: 1100px; margin: 0 auto; }
+  .container-sm { max-width: 760px; margin: 0 auto; }
+
+  .section-eyebrow {
+    font-size: 0.75rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 0.75rem;
+  }
+  h2.section-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900; font-size: clamp(1.8rem, 4vw, 2.8rem);
+    line-height: 1.15;
+    color: var(--white);
+    margin-bottom: 1.25rem;
+  }
+  .section-lead {
+    font-size: 1.1rem; color: var(--slate); line-height: 1.8; max-width: 680px;
+  }
+
+  /* ── MISSION ── */
+  #mission { background: var(--deep); }
+
+  .mission-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    margin-top: 3.5rem;
+  }
+
+  .mission-stat {
+    display: flex; align-items: flex-start; gap: 1rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(200,150,44,0.2);
+    border-radius: 2px;
+    background: rgba(255,255,255,0.02);
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .mission-stat:hover { border-color: rgba(200,150,44,0.5); background: rgba(200,150,44,0.04); }
+  .stat-icon {
+    width: 40px; height: 40px; flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(200,150,44,0.12);
+    color: var(--gold); font-size: 1.2rem;
+    border-radius: 2px;
+  }
+  .stat-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.3rem; }
+  .stat-text { font-size: 0.95rem; color: var(--slate); line-height: 1.6; }
+
+  .pillars { margin-top: 0; display: flex; flex-direction: column; gap: 1.2rem; }
+  .pillar {
+    display: flex; align-items: flex-start; gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    background: rgba(139,26,26,0.12);
+    border-left: 3px solid var(--ember);
+    border-radius: 0 2px 2px 0;
+  }
+  .pillar-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem; font-weight: 900; color: rgba(200,150,44,0.4);
+    line-height: 1; flex-shrink: 0; width: 2rem;
+  }
+  .pillar-title { font-weight: 700; color: var(--white); font-size: 0.95rem; margin-bottom: 0.2rem; }
+  .pillar-desc { font-size: 0.88rem; color: var(--slate); line-height: 1.6; }
+
+  /* ── ISSUES ── */
+  #issues { background: var(--iron); }
+
+  .issues-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 3.5rem;
+  }
+
+  .issue-card {
+    padding: 1.75rem;
+    background: var(--deep);
+    border: 1px solid rgba(200,150,44,0.15);
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .issue-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: var(--ember);
+  }
+  .issue-card:hover { transform: translateY(-3px); border-color: rgba(200,150,44,0.4); }
+  .issue-icon { font-size: 1.8rem; margin-bottom: 1rem; }
+  .issue-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.1rem; color: var(--white); margin-bottom: 0.6rem; }
+  .issue-body { font-size: 0.9rem; color: var(--slate); line-height: 1.7; }
+
+  .stat-callout {
+    margin-top: 3rem;
+    padding: 2rem 2.5rem;
+    background: rgba(200,150,44,0.06);
+    border: 1px solid rgba(200,150,44,0.3);
+    border-radius: 2px;
+    display: flex; flex-wrap: wrap; gap: 2.5rem; align-items: center; justify-content: space-around;
+    text-align: center;
+  }
+  .callout-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem; font-weight: 900; color: var(--gold); line-height: 1;
+  }
+  .callout-label { font-size: 0.82rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--slate); margin-top: 0.3rem; }
+
+  /* ── AMENDMENT BANNER ── */
+  #amendment {
+    background: linear-gradient(135deg, var(--ember) 0%, #6B0D0D 100%);
+    padding: 4.5rem 2rem;
+    text-align: center;
+  }
+  #amendment h2 { color: var(--white); }
+  .amend-body { font-size: 1.05rem; color: rgba(255,255,255,0.82); max-width: 640px; margin: 1rem auto 2rem; line-height: 1.75; }
+  .amend-number {
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem; font-weight: 900; color: var(--gold-lt);
+    line-height: 1; margin-bottom: 0.25rem;
+  }
+
+  /* ── ACTION ── */
+  #action { background: var(--deep); }
+
+  .action-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    margin-top: 3.5rem;
+  }
+
+  .action-card {
+    padding: 2.5rem;
+    border-radius: 2px;
+  }
+  .action-card.donate-card {
+    background: var(--ember);
+    position: relative; overflow: hidden;
+  }
+  .action-card.donate-card::after {
+    content: '★';
+    position: absolute; bottom: -1rem; right: 1.5rem;
+    font-size: 8rem; color: rgba(255,255,255,0.05);
+    line-height: 1;
+  }
+  .action-card.newsletter-card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(200,150,44,0.3);
+  }
+
+  .action-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem; font-weight: 900;
+    color: var(--white); margin-bottom: 0.75rem;
+  }
+  .action-card p {
+    font-size: 0.95rem; color: rgba(255,255,255,0.8); line-height: 1.7; margin-bottom: 1.75rem;
+  }
+
+  .donate-amounts {
+    display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 1.5rem;
+  }
+  .amount-btn {
+    padding: 0.5rem 1.1rem;
+    background: rgba(255,255,255,0.12);
+    color: var(--white); font-weight: 700; font-size: 0.95rem;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 2px; cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .amount-btn:hover, .amount-btn.active {
+    background: var(--gold); border-color: var(--gold); color: var(--iron);
+  }
+
+  .form-group { margin-bottom: 1rem; }
+  .form-group label {
+    display: block; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--slate); margin-bottom: 0.4rem;
+  }
+  .form-group input {
+    width: 100%; padding: 0.75rem 1rem;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(200,150,44,0.3);
+    border-radius: 2px;
+    color: var(--white); font-size: 0.95rem; font-family: 'Inter', sans-serif;
+    outline: none;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .form-group input:focus {
+    border-color: var(--gold);
+    background: rgba(200,150,44,0.06);
+  }
+  .form-group input::placeholder { color: var(--mid); }
+
+  .form-row { display: flex; gap: 1rem; }
+  .form-row .form-group { flex: 1; }
+
+  .btn-donate {
+    width: 100%; padding: 1rem;
+    background: var(--gold);
+    color: var(--iron); font-weight: 700; font-size: 1rem; letter-spacing: 0.08em; text-transform: uppercase;
+    border: none; border-radius: 2px; cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+    font-family: 'Inter', sans-serif;
+  }
+  .btn-donate:hover { background: var(--gold-lt); transform: translateY(-1px); }
+
+  .btn-subscribe {
+    width: 100%; padding: 1rem;
+    background: transparent;
+    color: var(--gold); font-weight: 700; font-size: 0.95rem; letter-spacing: 0.08em; text-transform: uppercase;
+    border: 2px solid var(--gold); border-radius: 2px; cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0.5rem;
+  }
+  .btn-subscribe:hover { background: var(--gold); color: var(--iron); }
+
+  .form-note {
+    font-size: 0.78rem; color: var(--mid); margin-top: 0.75rem; line-height: 1.5;
+  }
+  .form-note a { color: var(--slate); }
+
+  /* Success states */
+  .success-msg {
+    display: none;
+    padding: 1rem;
+    background: rgba(26,107,58,0.2);
+    border: 1px solid #1A6B3A;
+    border-radius: 2px;
+    color: #7FD4A4;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  /* ── QUOTE ── */
+  .quote-strip {
+    background: var(--navy);
+    padding: 3.5rem 2rem;
+    text-align: center;
+    border-top: 1px solid rgba(200,150,44,0.15);
+    border-bottom: 1px solid rgba(200,150,44,0.15);
+  }
+  .quote-strip blockquote {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.1rem, 3vw, 1.6rem);
+    font-style: italic;
+    color: var(--white);
+    max-width: 800px; margin: 0 auto 1rem;
+    line-height: 1.65;
+  }
+  .quote-strip cite { font-size: 0.85rem; color: var(--gold); font-style: normal; font-weight: 600; letter-spacing: 0.1em; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--iron);
+    padding: 3rem 2rem;
+    border-top: 1px solid rgba(200,150,44,0.2);
+  }
+  .footer-inner {
+    max-width: 1100px; margin: 0 auto;
+    display: flex; flex-wrap: wrap; gap: 2rem; justify-content: space-between; align-items: center;
+  }
+  .footer-brand { font-family: 'Playfair Display', serif; font-weight: 900; font-size: 1rem; color: var(--gold); letter-spacing: 0.1em; }
+  .footer-tagline { font-size: 0.82rem; color: var(--mid); margin-top: 0.25rem; }
+  .footer-links { display: flex; gap: 2rem; flex-wrap: wrap; }
+  .footer-links a { color: var(--mid); font-size: 0.82rem; text-decoration: none; transition: color 0.2s; }
+  .footer-links a:hover { color: var(--gold); }
+  .footer-legal { font-size: 0.75rem; color: var(--mid); line-height: 1.6; max-width: 450px; }
+  .stars { color: var(--gold); letter-spacing: 0.3em; font-size: 0.75rem; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    nav { padding: 0.9rem 1.25rem; }
+    .nav-links { display: none; }
+    .mission-grid, .action-grid { grid-template-columns: 1fr; }
+    .issues-grid { grid-template-columns: 1fr; }
+    .hero-ctas { flex-direction: column; align-items: center; }
+    .form-row { flex-direction: column; gap: 0; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition: none !important; animation: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">FORGE AMERICA NOW</a>
+  <ul class="nav-links">
+    <li><a href="#mission">Mission</a></li>
+    <li><a href="#issues">The Issues</a></li>
+    <li><a href="#amendment">Amendment</a></li>
+    <li><a href="#action">Take Action</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-eyebrow">
+    <span></span> A Nonprofit Foundation <span></span>
+  </div>
+  <h1 class="forge-title">
+    FORGE
+    <em>America Now</em>
+  </h1>
+  <p class="hero-sub">Fighting for Our Rights &amp; Grid Equity</p>
+  <p class="hero-tagline">
+    Ohio's communities are facing an unprecedented corporate land grab — unlimited data centers, unchecked tax abatements, and a power grid being broken by companies that pay nothing extra while families pay for everything.
+  </p>
+  <div class="hero-ctas">
+    <a href="#action" class="btn-primary">★&nbsp; Donate Now</a>
+    <a href="#action" class="btn-outline">Sign the Newsletter</a>
+  </div>
+</section>
+
+<!-- SPARK DIVIDER -->
+<div class="spark-divider">
+  <svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="spark" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%"   stop-color="#1A1A2E"/>
+        <stop offset="20%"  stop-color="#8B1A1A"/>
+        <stop offset="50%"  stop-color="#C8962C"/>
+        <stop offset="80%"  stop-color="#8B1A1A"/>
+        <stop offset="100%" stop-color="#1A1A2E"/>
+      </linearGradient>
+    </defs>
+    <rect width="1440" height="60" fill="#1A1A2E"/>
+    <!-- spark line -->
+    <path d="M0,30 Q60,10 120,30 Q180,50 240,30 Q300,10 360,30 Q420,50 480,30 Q540,10 600,30 Q660,50 720,25 Q780,5 840,30 Q900,50 960,30 Q1020,10 1080,30 Q1140,50 1200,30 Q1260,10 1320,30 Q1380,50 1440,30"
+          stroke="url(#spark)" stroke-width="2.5" fill="none" opacity="0.7"/>
+    <!-- ember dots -->
+    <circle cx="240"  cy="30" r="3" fill="#C8962C" opacity="0.9"/>
+    <circle cx="480"  cy="30" r="2" fill="#E5B84A" opacity="0.7"/>
+    <circle cx="720"  cy="25" r="4" fill="#C8962C" opacity="1"/>
+    <circle cx="960"  cy="30" r="2" fill="#E5B84A" opacity="0.7"/>
+    <circle cx="1200" cy="30" r="3" fill="#C8962C" opacity="0.9"/>
+    <rect width="1440" height="30" fill="#1A1A2E" y="30"/>
+  </svg>
+</div>
+
+<!-- MISSION -->
+<section id="mission">
+  <div class="container">
+    <p class="section-eyebrow">Our Mission</p>
+    <h2 class="section-title">Uniting All Ohioans<br>Around a Shared Fight</h2>
+    <p class="section-lead">FORGE America Now is a nonpartisan nonprofit dedicated to exposing data center abuse — holding corporations and government officials accountable and bringing communities together across political lines. We do not endorse candidates. We champion citizens.</p>
+
+    <div class="mission-grid">
+      <!-- Left: stats -->
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div class="mission-stat">
+          <div class="stat-icon">⚡</div>
+          <div>
+            <div class="stat-label">Electric Grid Crisis</div>
+            <div class="stat-text">One data center company is demanding 800 MW of power — equal to the entire cities of Cleveland or Cincinnati — straining a grid built for families, not hyperscale corporations.</div>
+          </div>
+        </div>
+        <div class="mission-stat">
+          <div class="stat-icon">$</div>
+          <div>
+            <div class="stat-label">$2.5 Billion in Tax Breaks</div>
+            <div class="stat-text">Since 2017, the data center industry has avoided $2.5 billion in Ohio sales taxes. School districts like Parma are projected to lose $4M in state funding as a direct result.</div>
+          </div>
+        </div>
+        <div class="mission-stat">
+          <div class="stat-icon">🛡</div>
+          <div>
+            <div class="stat-label">Your Data, Your Rights</div>
+            <div class="stat-text">These facilities hold your health records, banking data, social media activity, and emails. They are building comprehensive profiles on every American — and the build-out is accelerating.</div>
+          </div>
+        </div>
+        <div class="mission-stat">
+          <div class="stat-icon">📊</div>
+          <div>
+            <div class="stat-label">71% of Americans Agree</div>
+            <div class="stat-text">A May 2026 Gallup poll found 71% of Americans oppose data centers near their communities. This is not foreign propaganda — it is citizens with legitimate, documented grievances.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: pillars -->
+      <div>
+        <p class="section-eyebrow" style="margin-bottom:1.25rem;">Four Pillars of Action</p>
+        <div class="pillars">
+          <div class="pillar">
+            <div class="pillar-num">01</div>
+            <div>
+              <div class="pillar-title">Education</div>
+              <div class="pillar-desc">Informing citizens about data center deals, tax breaks, and grid impacts before communities lose their chance to act.</div>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-num">02</div>
+            <div>
+              <div class="pillar-title">Advocacy</div>
+              <div class="pillar-desc">Testifying before committees, challenging hidden NDAs, and demanding full transparency in all public records.</div>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-num">03</div>
+            <div>
+              <div class="pillar-title">Unity</div>
+              <div class="pillar-desc">Connecting Northeast Ohio, Central Ohio, and rural communities — this issue unites Ohioans regardless of political affiliation.</div>
+            </div>
+          </div>
+          <div class="pillar">
+            <div class="pillar-num">04</div>
+            <div>
+              <div class="pillar-title">Accountability</div>
+              <div class="pillar-desc">Holding corporations and officials accountable when communities are left paying the bills that corporations avoided.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPARK DIVIDER 2 -->
+<div class="spark-divider">
+  <svg viewBox="0 0 1440 40" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+    <rect width="1440" height="40" fill="#1A1A2E"/>
+    <path d="M0,20 Q180,5 360,20 Q540,35 720,18 Q900,5 1080,20 Q1260,35 1440,20"
+          stroke="rgba(200,150,44,0.35)" stroke-width="1.5" fill="none"/>
+  </svg>
+</div>
+
+<!-- ISSUES -->
+<section id="issues">
+  <div class="container">
+    <p class="section-eyebrow">The Issues</p>
+    <h2 class="section-title">What's Really at Stake for Ohio</h2>
+
+    <div class="issues-grid">
+      <div class="issue-card">
+        <div class="issue-icon">⚡</div>
+        <div class="issue-title">Electric Grid Overload</div>
+        <div class="issue-body">AEP Ohio warns the grid was never designed for this surge. Data centers consume city-scale electricity, and the rate increases are being passed to Ohio families and businesses — not the corporations causing the strain.</div>
+      </div>
+      <div class="issue-card">
+        <div class="issue-icon">💰</div>
+        <div class="issue-title">Tax Abatement Abuse</div>
+        <div class="issue-body">Scioto County: 15-year, 75% tax abatement. New Albany: 15-year, 100% abatement for Microsoft in exchange for just 20 jobs. Schools lose millions while corporations pocket billions in subsidies.</div>
+      </div>
+      <div class="issue-card">
+        <div class="issue-icon">💧</div>
+        <div class="issue-title">Water Consumption</div>
+        <div class="issue-body">Mega data centers consume millions of gallons of water daily for cooling. Ohio's EPA is only now being asked to require basic tracking. Our water resources are being privatized without public consent.</div>
+      </div>
+      <div class="issue-card">
+        <div class="issue-icon">🏠</div>
+        <div class="issue-title">False Jobs Promise</div>
+        <div class="issue-body">A $420M, 200-acre facility may employ just 100 people. FORGE America Now's assessment: data centers are a net zero for real Ohio economic development. The jobs promise is the industry's biggest lie.</div>
+      </div>
+      <div class="issue-card">
+        <div class="issue-icon">🔒</div>
+        <div class="issue-title">4th Amendment &amp; Privacy</div>
+        <div class="issue-body">Your health records, banking data, shopping history, and social media flow through these facilities. These centers enable comprehensive surveillance profiles on every American — with no meaningful oversight.</div>
+      </div>
+      <div class="issue-card">
+        <div class="issue-icon">🚒</div>
+        <div class="issue-title">Infrastructure Burden</div>
+        <div class="issue-body">In Jerome Township, data centers required so many fire department inspections that residents faced new service surcharges. Local governments absorb hidden costs; corporations pay nothing extra.</div>
+      </div>
+    </div>
+
+    <div class="stat-callout">
+      <div>
+        <div class="callout-num">200+</div>
+        <div class="callout-label">Data Centers in Ohio</div>
+      </div>
+      <div>
+        <div class="callout-num">$2.5B</div>
+        <div class="callout-label">Tax Breaks 2017–2024</div>
+      </div>
+      <div>
+        <div class="callout-num">800 MW</div>
+        <div class="callout-label">One Company's Power Demand</div>
+      </div>
+      <div>
+        <div class="callout-num">71%</div>
+        <div class="callout-label">Americans Oppose Nearby Data Centers</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AMENDMENT BANNER -->
+<section id="amendment">
+  <div class="container-sm">
+    <p class="section-eyebrow" style="color:rgba(255,255,255,0.7);">The Most Powerful Thing You Can Do</p>
+    <h2 class="section-title" style="color:#fff;">Sign the Ohio Constitutional Amendment</h2>
+    <div class="amend-number">417,000+</div>
+    <div style="font-size:0.8rem;color:rgba(255,255,255,0.6);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:1.5rem;">Valid Signatures Needed</div>
+    <p class="amend-body">
+      Conserve Ohio is leading a citizen initiative to amend the Ohio Constitution — capping individual data centers at 25 megawatts. It bypasses the legislature entirely. The effort is making real progress, but urgently needs more volunteer signature gatherers.
+    </p>
+    <div style="display:flex;gap:1.2rem;justify-content:center;flex-wrap:wrap;">
+      <a href="https://conserveohio.org" target="_blank" rel="noopener" class="btn-primary">Get Petition Forms →</a>
+      <a href="#action" class="btn-outline" style="border-color:rgba(255,255,255,0.5);color:#fff;">Stay Informed</a>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<div class="quote-strip">
+  <blockquote>
+    "Pay attention to this because this is an example of how your data gets used in the data centers — and then imagine applying this to every piece of data connecting your health, banking, shopping, dining, entertainment, social media, texts, and emails. They're building a profile on every American. And it's all coming."
+  </blockquote>
+  <cite>— Kim Georgeton, Founder · FORGE America Now · Ohio House Energy Committee, 2026</cite>
+</div>
+
+<!-- ACTION -->
+<section id="action">
+  <div class="container">
+    <p class="section-eyebrow">Take Action</p>
+    <h2 class="section-title">Stand With FORGE America Now</h2>
+    <p class="section-lead">Your support keeps FORGE America Now fighting — in the legislature, in the community, and in the streets. Every dollar and every signature matters.</p>
+
+    <div class="action-grid">
+
+      <!-- DONATE -->
+      <div class="action-card donate-card">
+        <h3>Support Our Work</h3>
+        <p>FORGE America Now is funded entirely by citizens like you. Your donation fuels our testimony before committees, community outreach, and the fight to hold corporations accountable.</p>
+
+        <div class="donate-amounts">
+          <button class="amount-btn" onclick="setAmount(25)">$25</button>
+          <button class="amount-btn active" onclick="setAmount(50)">$50</button>
+          <button class="amount-btn" onclick="setAmount(100)">$100</button>
+          <button class="amount-btn" onclick="setAmount(250)">$250</button>
+          <button class="amount-btn" onclick="setAmount('other')">Other</button>
+        </div>
+
+        <form id="donate-form" onsubmit="handleDonate(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="d-first">First Name</label>
+              <input type="text" id="d-first" placeholder="Jane" required autocomplete="given-name">
+            </div>
+            <div class="form-group">
+              <label for="d-last">Last Name</label>
+              <input type="text" id="d-last" placeholder="Smith" required autocomplete="family-name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="d-email">Email Address</label>
+            <input type="email" id="d-email" placeholder="jane@example.com" required autocomplete="email">
+          </div>
+          <div class="form-group" id="custom-amount-group" style="display:none;">
+            <label for="d-amount">Custom Amount ($)</label>
+            <input type="number" id="d-amount" placeholder="Enter amount" min="1">
+          </div>
+          <button type="submit" class="btn-donate">★&nbsp; Donate Now</button>
+          <div class="success-msg" id="donate-success">
+            ✓ Thank you for your generous support! You'll receive a receipt by email.
+          </div>
+          <p class="form-note">
+            FORGE America Now is a nonprofit organization. Donations may be tax-deductible to the extent permitted by law. We never sell or share your information.
+          </p>
+        </form>
+      </div>
+
+      <!-- NEWSLETTER -->
+      <div class="action-card newsletter-card">
+        <h3>Stay in the Fight</h3>
+        <p>Sign up for the FORGE America Now newsletter — action alerts, legislative updates, local events, and the facts you need to protect your community. We send only what matters.</p>
+
+        <div style="margin-bottom:1.5rem;">
+          <div style="display:flex;align-items:center;gap:0.75rem;padding:0.9rem 1rem;background:rgba(200,150,44,0.07);border:1px solid rgba(200,150,44,0.2);border-radius:2px;margin-bottom:0.75rem;">
+            <span style="color:var(--gold);font-size:1.1rem;">📋</span>
+            <span style="font-size:0.9rem;color:var(--slate);">Legislative alerts when Ohio bills move</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;padding:0.9rem 1rem;background:rgba(200,150,44,0.07);border:1px solid rgba(200,150,44,0.2);border-radius:2px;margin-bottom:0.75rem;">
+            <span style="color:var(--gold);font-size:1.1rem;">📍</span>
+            <span style="font-size:0.9rem;color:var(--slate);">Local events in your county</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;padding:0.9rem 1rem;background:rgba(200,150,44,0.07);border:1px solid rgba(200,150,44,0.2);border-radius:2px;margin-bottom:0.75rem;">
+            <span style="color:var(--gold);font-size:1.1rem;">✍</span>
+            <span style="font-size:0.9rem;color:var(--slate);">Constitutional amendment signature drive updates</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:0.75rem;padding:0.9rem 1rem;background:rgba(200,150,44,0.07);border:1px solid rgba(200,150,44,0.2);border-radius:2px;">
+            <span style="color:var(--gold);font-size:1.1rem;">🛡</span>
+            <span style="font-size:0.9rem;color:var(--slate);">The facts on data center deals near you</span>
+          </div>
+        </div>
+
+        <form id="newsletter-form" onsubmit="handleNewsletter(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="n-first">First Name</label>
+              <input type="text" id="n-first" placeholder="Jane" required autocomplete="given-name">
+            </div>
+            <div class="form-group">
+              <label for="n-last">Last Name</label>
+              <input type="text" id="n-last" placeholder="Smith" required autocomplete="family-name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="n-email">Email Address</label>
+            <input type="email" id="n-email" placeholder="jane@example.com" required autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label for="n-zip">Ohio ZIP Code</label>
+            <input type="text" id="n-zip" placeholder="44094" maxlength="5" autocomplete="postal-code">
+          </div>
+          <button type="submit" class="btn-subscribe">Join the Fight →</button>
+          <div class="success-msg" id="newsletter-success">
+            ✓ You're in! Watch your inbox for your first update from FORGE America Now.
+          </div>
+          <p class="form-note">
+            We respect your privacy. You can unsubscribe at any time. We never sell or share your information. <br>
+            Contact: <a href="mailto:info@forgeamericanow.org">info@forgeamericanow.org</a>
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">FORGE AMERICA NOW</div>
+      <div class="footer-tagline">Fighting for Our Rights &amp; Grid Equity</div>
+      <div class="stars" style="margin-top:0.5rem;">★ ★ ★</div>
+    </div>
+    <div class="footer-links">
+      <a href="#mission">Mission</a>
+      <a href="#issues">Issues</a>
+      <a href="#amendment">Amendment</a>
+      <a href="#action">Donate</a>
+      <a href="https://conserveohio.org" target="_blank" rel="noopener">Conserve Ohio</a>
+      <a href="mailto:info@forgeamericanow.org">Contact</a>
+    </div>
+    <div class="footer-legal">
+      FORGE America Now is a nonprofit organization. FORGE America Now does not endorse political candidates. Our mission is to educate, advocate, and unite Ohio citizens around data center accountability.<br>
+      © 2026 FORGE America Now. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script>
+  let selectedAmount = 50;
+
+  function setAmount(val) {
+    document.querySelectorAll('.amount-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    const customGroup = document.getElementById('custom-amount-group');
+    if (val === 'other') {
+      customGroup.style.display = 'block';
+      selectedAmount = null;
+    } else {
+      customGroup.style.display = 'none';
+      selectedAmount = val;
+    }
+  }
+
+  function handleDonate(e) {
+    e.preventDefault();
+    const amount = selectedAmount || document.getElementById('d-amount').value || 50;
+    // In production this would redirect to a payment processor (Stripe, PayPal, etc.)
+    // For now, show a confirmation and simulate redirect
+    const btn = e.target.querySelector('.btn-donate');
+    btn.textContent = 'Processing…';
+    btn.disabled = true;
+    setTimeout(() => {
+      document.getElementById('donate-success').style.display = 'block';
+      btn.textContent = '★  Donation Submitted';
+      btn.style.background = '#1A6B3A';
+      btn.style.color = '#fff';
+    }, 1200);
+  }
+
+  function handleNewsletter(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('.btn-subscribe');
+    btn.textContent = 'Subscribing…';
+    btn.disabled = true;
+    setTimeout(() => {
+      document.getElementById('newsletter-success').style.display = 'block';
+      btn.textContent = '✓ Subscribed';
+      btn.style.background = '#1A6B3A';
+      btn.style.borderColor = '#1A6B3A';
+      btn.style.color = '#fff';
+    }, 1000);
+  }
+
+  // Smooth scroll for nav on mobile
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+</script>
+</body>
+</html>
